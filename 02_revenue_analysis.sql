@@ -31,7 +31,7 @@ GROUP BY time, source
 
 ORDER BY source, time_type, time; 
 
--- Query 4: Weekly & Cumulative Revenue Trend
+-- Query 04: Weekly & Cumulative Revenue Trend
 WITH weekly_revenue AS (
   SELECT
     FORMAT_DATE('%G-%V', PARSE_DATE('%Y%m%d', date)) AS week

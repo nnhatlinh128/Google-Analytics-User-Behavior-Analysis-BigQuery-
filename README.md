@@ -1,4 +1,4 @@
-# Google Analytics User Behavior Analysis
+# User Behavior Analysis
 
 ## Project Overview
 
